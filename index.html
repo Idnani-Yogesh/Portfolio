@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/5bdfdab51a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+           <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#portfolio">Certifications</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h1>Hi, I'm <span>Yogesh</span></h1>
+                    <p>IT Student</p>
+                </div>
+           </div> 
+        </div>
+        <!-- --------about---------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Student at MVGR College Of Engineering, Vizianagaram.<br>
+                            Hello, I am I. Yogesh Tulsidas, Driven and Adaptable recent IT graduate with a passion for pursuing a challenging career that increases my development skills and committed to leveraging my core knowledge for impactful contributions in a dynamic team to drive operational excellence.<br>
+                            <br>I am enthusiastic and a Quick Learner always trying to explore new technologies with good analytical and problem solving skills. I am also capable of handling multi tasks, Self Motivated and work collaboratively and effectively with the team. I have the Agile mindset and a great Leadership quality prior my experience.
+                            I show a positive behaviour and always take things practically. This describes that i am Resilience and Amicable.<br><br><b><span>Hobbies:</span></b> Dancing, playing Guitar, travel and explore, playing games like Cricket, Badminton and actively participate in organzational Club Activities.<br><b><span>Achievements: </span></b>First prize for participating in Dance Competition in Rajkot,Gujarat.
+                            Participation certificate for FLUTTER Workshop at GMR Institute, Android Development Certification in SWECHA FREEDOM FEST in our College.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming Languages</span><br>JAVA, PYTHON, C, C++</li>
+                                <li><span>Database</span><br>MYSQL</li>
+                                <li><span>Web Development</span><br>HTML, CSS, JAVASCRIPT, JSP</li>
+                                <li><span>Networking</span><br>Computer Networks</li>
+                                <li><span>Others</span><br>Data Structures and Algorithms</li>
+                                <li>Artificial Intelligence</li>
+                                <li>Cloud Technologies<br></li>
+                                <li>Robotic Process Automation<br></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Intern&ensp;&emsp;&nbsp;May 2023 - July 2023</span><br>Salesforce Developer Virtual Internship - SALESFORCE</li>
+                                <li><span>Intern&ensp;&emsp;&nbsp;Oct 2021 - Dec 2021</span><br>Robotic Process Automation Virtual Internship - AICTE</li>
+                                <li><span>Intern&ensp;&emsp;&nbsp;Sep 2022 - Oct 2022</span><br>Data Science with Python Virtual Internship - COINCENT</li>
+                                <li><span>Intern&ensp;&emsp;&nbsp;Mar 2022 - May 2022</span><br>Linux Automation Virtual Internship - AICTE</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>B.Tech - Information Technology&ensp;&emsp;&nbsp;2020 - 2024</span><br>MVGR College Of Engineering - Vizianagaram,India        <br>8.27 CGPA(till today)</li>
+                                <li><span>Intermediate (XII) - MPC&ensp;&emsp;&nbsp;2018 - 2020</span><br>Narayana Jr College - Visakhapatnam, India<br>9.1 CGPA</li>
+                                <li><span>SSC (X)&ensp;&emsp;&nbsp;2018</span><br>Tiny Tots High School - Visakhapatnam, India<br>9.3 CGPA</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ----------------projects--------------- -->
+        <div id="projects">
+           <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-key"></i>
+                    <h2>Multilevel Authentication System</h2>
+                    <p> •	Present Two way Authentication is still allowing hackers to crack and hack the accounts of individuals creating insecurity and driving into problems. 
+                        <br><br>•	This Authentication System provides high encryption standards for database by providing encrypted passwords with internal faster multiple levels of processing using Salting and Hashing techniques.
+                        <br><br><b>Role :</b> Team Leader
+                        <br><b>Technologies Used :</b> HTML, CSS, Bootstrap, EJS, BCRYPT, Google OAuth Technology, Robo 3T 
+                        </p>
+                        <a href="https://www.knowledgehut.com/blog/web-development/authentication-method-node">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-wheat-awn"></i>
+                    <h2>Organic Farming</h2>
+                    <p> <br>•	Organic Farming facing the challenges such as Inadequate Infrastructure, Marketing and prices problems, and Lack of awareness. 
+                        <br><br>•	Accelerated to Modern technology designed a Web Application that overcomes the above challenges and provides the benefits allowing People Direct Interaction with Farmer, House Holding Promotions, Online Product Selling and query session.
+                        <br><br><b>Role :</b> Team Leader
+                        <br><b>Technologies Used :</b> HTML, Javascript                        
+                        </p>
+                        <a href="https://agritech.tnau.ac.in/org_farm/orgfarm_introduction.html ">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>College / School Automation</h2>
+                    <p> •	The online e-cap website is costed more and government schools are unable to afford.
+                        <br><br>•	Designed a website gives the free access to the schools or colleges to automate their related data here and customize accordingly.
+                        <br><br><b>Role :</b> Collaborated and worked with a team of 3 members
+                        <br><b>Technologies Used :</b> HTML, Javascript, CSS                                                
+                        </p>
+                        <a href="https://github.com/topics/college-management-system">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>Pizza Ordering Chatbot</h2>
+                    <p> •	Some people having the laziness and also some aged people are not aware of modern phones to that extent. 
+                        <br><br>•	This Chatbot allows to order the Pizza from the given food restaurants by customizing their interests also saving their time by faster ordering.
+                        <br><br><b>Role :</b> Self  Project
+                        <br><b>Technologies Used :</b> Python and Dialog Flow                        
+                        </p>
+                        <a href="images/pizza chatbot reference.pdf">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h2>Tic Tac Toe Game</h2>
+                    <p>•    A game allowing people to increase their logical thinking. 
+                        <br><br>•    Showing the essence of C Programming.
+                        <br><br><br><b>Role :</b> Collaborated and worked with a team of 3 members
+                        <br><b>Technologies Used :</b> C Programming                        
+                        </p>
+                        <a href="http://www.cprogrammingnotes.com/question/tic-tac-toe-game.html">Learn more</a>
+                </div>
+            </div>
+           </div>
+        </div>
+        <!-- ----------Portfolio------------ -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Certifications</h1>
+                <div class="certificates-list">
+                    <div class="certificate">
+                        <img src="images/work-9.png">
+                        <div class="layer">
+                            <h3>Salesforce Developer Internship</h3>
+                            <p>Course serves as a stepping stone for aspiring developers seeking valuable skills in the Salesforce ecosystem.</p>
+                            <a href="images/Final Developer Certificate.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="certificate">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>NPTEL Cloud Computing</h3>
+                            <p>Course provides a thorough understanding of cloud technologies, services, deployment models and the benefits of cloud computing for businesses and individuals.</p>
+                            <a href="images/Final Certificate Cloud.jpg"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="certificate">
+                        <img src="images/work-10.png">
+                        <div class="layer">
+                            <h3>Robotic Process Automation</h3>
+                            <p>This internship equips individuals with valuable skills for streamlining processes and driving digital transformation.</p>
+                            <a href="images/RPA Final certificate.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="certificate">
+                        <img src="images/work-11.png">
+                        <div class="layer">
+                            <h3>Data Scinece with Python</h3>
+                            <p>Acquire hands-on experience in handling real-world datasets and building predictive models, preparing them for data-driven roles.</p>
+                            <a href="images/Data Science internship.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="certificate">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>NPTEL Leadership and Team Effectiveness</h3>
+                            <p>Gain insights into essential leadership principles, team management strategies and develop skills in communication, conflict resolution, to lead teams successfully.</p>
+                            <a href="images/Final Certificate Leadership.jpg"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="certificate">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>CISCO Programming Essentials in C</h3>
+                            <p>This course equips gain practical coding skills, grasp core programming concepts, and learn to develop applications in C.</p>
+                            <a href="images/C certificate.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="certificate">
+                        <img src="images/work-4.png">
+                        <div class="layer">
+                            <h3>CISCO Programming Essentials in Python</h3>
+                            <p>Acquire practical coding skills, understand fundamental programming concepts, and learn to develop Python applications.</p>
+                            <a href="images/Python certificate.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="certificate">
+                        <img src="images/work-5.png">
+                        <div class="layer">
+                            <h3>IBM Data Science Methodologies</h3>
+                            <p>This course equips learners with the essential toolkit to drive informed decisions and impactful solutions through data-driven processes.</p>
+                            <a href="images/Data science methodologies.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="certificate">
+                        <img src="images/work-6.png">
+                        <div class="layer">
+                            <h3>Career Essentials in Generative AI</h3>
+                            <p>Develop skills to innovate and contribute to cutting-edge applications in fields like image synthesis, text generation, and more.</p>
+                            <a href="images/Generative AI.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="certificate">
+                        <img src="images/work-7.png">
+                        <div class="layer">
+                            <h3>UIPATH RPA Starter</h3>
+                            <p>Learn the fundamentals of automating repetitive tasks and gaining insights into creating, testing, and deploying software robots.</p>
+                            <a href="images/RPA UIPATH.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="certificate">
+                       <img src="images/work-8.png">
+                        <div class="layer">
+                            <h3>Web Animations Using CSS</h3>
+                            <p>Leverage CSS animations, transitions, and keyframes to add dynamic visual elements, enhance and bring websites to life.</p>
+                            <a href="images/Web Animations.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="certificate">
+                        <img src="images/work-12.png">
+                        <div class="layer">
+                            <h3>Data Visualization</h3>
+                            <p>Provides practical insights in Empowering Business With Effective insights.</p>
+                            <a href="images/Tata Forage.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!-- ----------contact-------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i> yogeshprince111@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> 6305532247</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/idnani-yogesh-tulsidas"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/yogesh.idnani.5"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/yogeshprince15/"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="images/My Resume.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &#169; I. Yogesh</p>
+            </div>
+        </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwgJAWGm7zrqN1dXBVqfiN4SerWwonSe1l6qSZrF7SctWtRvw-tLk9Xs1dh31ytOZ-eHA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    </body>
+</html>
